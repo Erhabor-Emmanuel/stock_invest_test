@@ -18,16 +18,16 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: kWhite,
       body: SafeArea(
           child: Padding(
-        padding: const EdgeInsets.only(left: 12.0, right: 12.0, top: 12.0),
+        padding: EdgeInsets.only(left: 12.0, right: 12.0, top: 12.0),
         child: Column(
           children: [
-            const CustomBar(text: Strings.appTittle),
-            const SizedBox(height: 16),
-            const CustomSearchButton(text: Strings.search),
+            CustomBar(text: Strings.appTittle),
+            SizedBox(height: 16),
+            CustomSearchButton(text: Strings.search),
             // CustomSearchBar(controller:_controller)
           ],
         ),
