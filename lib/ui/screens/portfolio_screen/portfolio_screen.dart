@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../const/colors.dart';
-import '../../const/strings.dart';
+import '../../../helpers/const/colors.dart';
+import '../../../helpers/const/strings.dart';
 import '../../widgets/custom_search_bar.dart';
 
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-import '../const/strings.dart';
+import '../../helpers/const/strings.dart';
+
 
 class CustomSearchBar extends StatefulWidget {
   final TextEditingController controller;

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-import '../const/images_assets.dart';
 
 class CustomRow extends StatelessWidget {
   final String text;
